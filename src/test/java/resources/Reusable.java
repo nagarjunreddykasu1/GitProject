@@ -404,5 +404,9 @@ public class Reusable {
 		prop.load(config);
 		return prop;
 	}
+	
+	public static void tearDown() {
+		System.out.println("tearDown method");
+	}
 
 }
