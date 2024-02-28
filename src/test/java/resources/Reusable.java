@@ -404,5 +404,8 @@ public class Reusable {
 		prop.load(config);
 		return prop;
 	}
+	public static void setup() {
+		System.out.println("setup method");
+	}
 
 }
